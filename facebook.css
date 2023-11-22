@@ -1,0 +1,109 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.title {
+    background-image: url(https://1000marcas.net/wp-content/uploads/2019/12/Facebook-Logo.png);
+    background-repeat: no-repeat;
+    /*Evitar que se repita el fondo*/
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    margin-bottom: 2rem;
+    /*Separacion de la seccion de servicios*/
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    background-color: #F1F3F6;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 2rem;
+}
+
+section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #0c0d11;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0px;
+    border-radius: 0.5rem;
+}
+
+.sombra {
+    /*Sombra del main*/
+    /*Sombra del elemento en el borde*/
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 122, 0.48);
+    /* Sombra del elemento, al borde 
+    */
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112, 112, 122, 0.48);
+    /* Motor para Chrome */
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112, 112, 122, 0.48);
+    /* Motor para Firefox */
+    border-radius: 0.5rem;
+    /* Esquinas redondeadas */
+    margin: 2rem 0rem;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: 2px #e9e9ea solid;
+    width: 100%;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding: 1rem;
+}
+
+input:hover {
+    border: 2px #80accf solid;
+}
+
+a {
+    color: #3c85dd;
+    text-decoration: none;
+}
+
+.boton {
+    background-color: #1977f1;
+    color: #fafcff;
+}
+
+.boton2 {
+    background-color: #41b729;
+    color: #fafcff;
+    border: none;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.textaling-left {
+    text-align: left;
+}
+
+span {
+    font-weight: bold;
+}
